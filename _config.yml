@@ -97,9 +97,12 @@ content:
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
+          ```html
           - Manage official monitoring tools used accross the company. 
-          - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, alert correlation.          
+          - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, alert correlation.
+          - Deploy and maintain necessary infrastructure either on the cloud or on-prem.          
           - Handle vendor contracts, and guide internal users on how to chose the best tool for the job.
+          ```
       - layout: left
         title: GoTo
         sub_title: Site Reliability Engineer
@@ -107,10 +110,12 @@ content:
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          - Worked in the NOC team ensuring uptime for all the different public facing products, GoToMeeting, LastPass, etc. 
+          ```yaml
+          - Worked in the NOC team ensuring uptime for all the different public facing products. 
           - Monitor critical alerts accross the company to avoid and fix potential issues. 
           - Incident management including status pages.
           - SSL certificate follow up to avoid expired certs causing downtime.
+          ```
       - layout: left
         title: GoTo
         sub_title: Field Engineer
@@ -118,9 +123,11 @@ content:
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
+          ```css
           - Deployed Jive’s VoIP cloud PBX for enterprise customers. 
-          - Configure and troubleshoot various network devices, 
-            - Routers, switches (segmentation of networks through VLANs), firewalls and SD-WAN velocloud appliances.
+          - Configure and troubleshoot various network devices. 
+            - Routers, switches (segmentation of networks through VLANs), firewalls and SD-WAN appliances.
+          ```
       - layout: left
         title: GoTo
         sub_title: Tier 2 tech support
@@ -128,7 +135,9 @@ content:
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          - Handled Jive VoIP customer care issues and T1 reps escalations
+          ```
+          - Handled Jive VoIP customer care issues and T1 reps escalations.
+          ```
       # - layout: left
       #   title: World Connection
       #   sub_title: Quality Analyst
@@ -154,7 +163,9 @@ content:
         caption: 2018 - Present
         quote: 
         description: | # this will include new lines to allow paragraphs
-          - I've aquired several industry well known certifications from different vendors including Cisco, Juniper, Akamai, etc.
+          ```json
+          - I've aquired several certs from different vendors (Cisco, Juniper, Akamai, etc).
+          ```
           - [Badges can be found in my credly page](https://www.credly.com/users/chrisjosuearzu/badges)
       - layout: left
         title: Universidad Mariano Gálvez
@@ -162,18 +173,23 @@ content:
         caption: 2021 - 2025
         quote: 
         description: | # this will include new lines to allow paragraphs
-          - Learning programming languages like C++, Java and C#
-          - Data structures in C# (linked lists, binary search trees)
+          ```
+          - Learning programming languages like C++, Java and C#.
+          - Data structures in C# (linked lists, binary search trees).
+          ```
       - layout: left
         title: Universidad San Carlos
         sub_title: Systems engineering
         caption: 2007 - 2009
         quote: 
         description: | # this will include new lines to allow paragraphs
+          ```
           - Incomplete studies, I was younger and wanted to live life :wink:
+          ```
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
+      ```
       - I can adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to 
         pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
       - My journey in the IT world started when I decided to get my CCNA 
@@ -183,6 +199,7 @@ content:
         I'll document the whole process in case I need to re-do it. I used to manage my notes in Google Docs
         But they're too slow to load, so migrated all my notes to Obsidian, so now everything is handled as
         mardown files and automatically uploaded to my github account.
+      ```
 
 # Footer
 footer_show_references: true
