@@ -66,7 +66,7 @@
     vertical-align: middle;
 
     p {
-      margin-bottom: 3px;
+      margin-bottom: 1px;
       font-size: 1.6rem;
       text-align: inherit;
       font-weight: 300;
@@ -123,13 +123,15 @@
   }
 }
 
+// modifiedRemSpaceSections
+// Modified this to reduce the spacew between elements in the Experience section
+// margin-bottom value was set to 3rem, I set it to 1rem
 .layout-left, .layout-right {
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
-
   .details {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
