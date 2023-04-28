@@ -1,6 +1,7 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: linkarzu/modern-resume-theme
+
+favicon: images/favicon2.ico # (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -126,7 +127,7 @@ content:
           ```css
           - Deployed Jive’s VoIP cloud PBX for enterprise customers. 
           - Configure and troubleshoot various network devices. 
-            - Routers, switches (segmentation of networks through VLANs), firewalls and SD-WAN appliances.
+          - Routers, switches (segmentation of networks through VLANs), firewalls and SD-WAN appliances.
           ```
       - layout: left
         title: GoTo
@@ -166,7 +167,7 @@ content:
           ```json
           - I've aquired several certs from different vendors (Cisco, Juniper, Akamai, etc).
           ```
-          - [Badges can be found in my credly page](https://www.credly.com/users/chrisjosuearzu/badges)
+          - [Badges can be found in my credly page](https://www.credly.com/users/chrisjosuearzu/badges){:target="_blank"}
       - layout: left
         title: Universidad Mariano Gálvez
         sub_title: Systems engineering
@@ -190,15 +191,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       ```
-      - I can adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to 
-        pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
-      - My journey in the IT world started when I decided to get my CCNA 
-        back in 2018, but then I relized that networking is just a small part of the landscape, so I'be been trying to catch
-        up to new technologies ever since.
-      - I love taking notes, let's say for example I'm learning to deploy wordpress on a docker container in a GCP VM,
-        I'll document the whole process in case I need to re-do it. I used to manage my notes in Google Docs
-        But they're too slow to load, so migrated all my notes to Obsidian, so now everything is handled as
-        mardown files and automatically uploaded to my github account.
+      - I can adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
+      - My journey in the IT world started when I decided to get my CCNA back in 2018, but then I relized that networking is just a small part of the landscape, so I'be been trying to catch up to new technologies ever since.
+      - I love taking notes, let's say for example I'm learning to deploy wordpress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it. I used to manage my notes in Google Docs but they're too slow to load, so migrated all my notes to Obsidian, so now everything is handled as markdown files and automatically uploaded to my github account.
       ```
 
 # Footer
