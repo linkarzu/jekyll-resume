@@ -4,9 +4,10 @@ services:
   jekyll:
     image: jekyll/jekyll:3.8
     container_name: modern-resume-theme
-    command: jekyll serve --watch --force_polling --verbose
+    restart: unless-stopped
+    command: jekyll serve --watch --force_polling --verbose --livereload
     ports:
-      - 4000:4000
-      - 35729:35729
+      - 4006:4000
+      - 35730:35729
     volumes:
-      - ./:/srv/jekyll
+      - .:/srv/jekyll
