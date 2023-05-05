@@ -2,7 +2,7 @@ version: '3'
 
 services:
   jekyll:
-    image: jekyll/jekyll:3.9
+    image: jekyll/jekyll:3.8
     container_name: jekyll-resume-git
     restart: unless-stopped
     command: jekyll serve --watch --force_polling --verbose --livereload
