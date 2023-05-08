@@ -51,7 +51,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: https://res.cloudinary.com/daqwsgmx6/image/upload/v1683578753/Profile%20pics/linkedin.jpg
 about_content: | # this will include new lines to allow paragraphs
   I like to learn about new stuff related to technology, not specific to a particular field. 
   Whether it's Linux, networking, virtualization, containerization, cloud services, web design, programming - you name it; 
