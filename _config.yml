@@ -13,8 +13,8 @@ title: Senior monitoring engineer
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: linkarzu.com # (eg. https://google.com)(optional)
+website_title: Blog # (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -55,7 +55,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I like to learn about new stuff related to technology, not specific to a particular field. 
   Whether it's Linux, networking, virtualization, containerization, cloud services, web design, programming - you name it; 
-  if it's something I can use in real life, I'm down for learning and applying it. 
+  if it's something I can use in real life, I'm down for learning and applying it. You can learn more about me in my [personal blog](https://linkarzu.com){:target="_blank"}
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -99,7 +99,7 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           ```html
-          - Manage official monitoring tools used accross the company. 
+          - Manage official monitoring tools used across the company. 
           - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, alert correlation.
           - Deploy and maintain necessary infrastructure either on the cloud or on-prem.          
           - Handle vendor contracts, and guide internal users on how to chose the best tool for the job.
@@ -113,7 +113,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           ```yaml
           - Worked in the NOC team ensuring uptime for all the different public facing products. 
-          - Monitor critical alerts accross the company to avoid and fix potential issues. 
+          - Monitor critical alerts across the company to avoid and fix potential issues. 
           - Incident management including status pages.
           - SSL certificate follow up to avoid expired certs causing downtime.
           ```
@@ -165,7 +165,7 @@ content:
         quote: 
         description: | # this will include new lines to allow paragraphs
           ```json
-          - I've aquired several certs from different vendors (Cisco, Juniper, Akamai, etc).
+          - I've acquired several certs from different vendors (Cisco, Juniper, Akamai, etc).
           ```
           - [Badges can be found in my credly page](https://www.credly.com/users/chrisjosuearzu/badges){:target="_blank"}
       - layout: left
@@ -191,9 +191,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       ```
+      - My journey in the IT world started when I decided to get my Cisco CCNA certification back in 2018, but then I realized that networking is just a small part of the landscape, so I'be been trying to catch up to new technologies ever since.
       - I adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
-      - My journey in the IT world started when I decided to get my CCNA back in 2018, but then I relized that networking is just a small part of the landscape, so I'be been trying to catch up to new technologies ever since.
-      - I love taking notes, let's say for example I'm learning to deploy wordpress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it. I used to manage my notes in Google Docs but they're too slow to load, so migrated all my notes to Obsidian, so now everything is handled as markdown files and automatically uploaded to my github repo.
+      - I love taking notes, let's say for example I'm learning to deploy WordPress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it. 
+        - I used to manage my notes in Google Docs but it's too slow to load, so migrated all my notes to Obsidian, so now everything is handled as markdown files and automatically uploaded to my private GitHub repo.
       ```
 
 # Footer
