@@ -100,9 +100,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           ```html
           - Manage official monitoring tools used across the company. 
-          - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, alert correlation.
+          - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, and alert correlation.
           - Deploy and maintain necessary infrastructure either on the cloud or on-prem.          
-          - Handle vendor contracts, and guide internal users on how to chose the best tool for the job.
+          - Handle vendor contracts, and guide internal users on how to choose the best tool for the job.
           ```
       - layout: left
         title: GoTo
@@ -112,10 +112,10 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           ```yaml
-          - Worked in the NOC team ensuring uptime for all the different public facing products. 
+          - Worked in the NOC team ensuring uptime for all the different public-facing products. 
           - Monitor critical alerts across the company to avoid and fix potential issues. 
           - Incident management including status pages.
-          - SSL certificate follow up to avoid expired certs causing downtime.
+          - SSL certificate follow-up to avoid expired certs causing downtime.
           ```
       - layout: left
         title: GoTo
@@ -159,7 +159,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Technical certifications
+        title: Technical Certifications
         sub_title: Certifications
         caption: 2018 - Present
         quote: 
@@ -176,7 +176,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           ```
           - Learning programming languages like C++, Java and C#.
-          - Data structures in C# (linked lists, binary search trees).
+          - Data structures in C# (linked lists, binary search trees, etc).
           ```
       - layout: left
         title: Universidad San Carlos
@@ -191,7 +191,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       ```
-      - My journey in the IT world started when I decided to get my Cisco CCNA certification back in 2018, but then I realized that networking is just a small part of the landscape, so I'be been trying to catch up to new technologies ever since.
+      - My journey in the IT world started when I decided to get my Cisco CCNA certification back in 2018, but then I realized that networking is just a small part of the landscape, so I've been trying to catch up to new technologies ever since.
       - I adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
       - I love taking notes, let's say for example I'm learning to deploy WordPress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it. 
         - I used to manage my notes in Google Docs but it's too slow to load, so migrated all my notes to Obsidian, so now everything is handled as markdown files and automatically uploaded to my private GitHub repo.
