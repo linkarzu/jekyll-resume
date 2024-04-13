@@ -7,14 +7,17 @@ favicon: images/favicon2.ico # (eg. images/favicon.ico)(optional)
 version: 2
 
 # Personal info
-name: Christian Arzu
+name: Christian Arzu (linkarzu)
 title: Senior monitoring engineer
 # email: Your email (optional)
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: linkarzu.com # (eg. https://google.com)(optional)
-website_title: Blog # (Website title override)
+website: https://linkarzu.com 
+website_title: My blog
+# This website2 below doesnt work
+# website2: youtube.com/@linkarzu 
+# website2_title: YouTube
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -22,6 +25,7 @@ darkmode: false
 # Social links
 linkedin_username: christianarzu
 github_username:  linkarzu
+youtube_username: "@linkarzu"
 # twitter_username: jekyllrb
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
@@ -30,7 +34,6 @@ github_username:  linkarzu
 #instagram_username: jekyll
 #xing_username: jekyll
 #pinterest_username: jekyll
-#youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
 
@@ -55,7 +58,9 @@ about_profile_image: https://res.cloudinary.com/daqwsgmx6/image/upload/v16835787
 about_content: | # this will include new lines to allow paragraphs
   I like to learn about new stuff related to technology, not specific to a particular field. 
   Whether it's Linux, networking, virtualization, containerization, cloud services, web design, programming - you name it; 
-  if it's something I can use in real life, I'm down for learning and applying it. You can learn more about me in my [personal blog](https://linkarzu.com){:target="_blank"}
+  if it's something I can use in real life, I'm down for learning and applying it. 
+  - Check out my: [Personal blog](https://linkarzu.com){:target="_blank"}
+  - Check out my: [YouTube channel](https://www.youtube.com/@linkarzu){:target="_blank"}
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -94,7 +99,7 @@ content:
       - layout: left
         title: GoTo
         sub_title: Monitoring engineer
-        caption: Sept 2022 - present <br> (7 months)
+        caption: Sept 2022 - present <br> (1 year 6 months)
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -165,9 +170,13 @@ content:
         quote: 
         description: | # this will include new lines to allow paragraphs
           ```json
-          - I've acquired several certs from different vendors (Cisco, Juniper, Akamai, etc).
+          - My latest certification is "CKA: Certified Kubernetes Administrator"
+          - But over the years, i've acquired other certs from different vendors (Cisco, Juniper, Akamai, etc).
           ```
-          - [Badges can be found in my credly page](https://www.credly.com/users/chrisjosuearzu/badges){:target="_blank"}
+          - Links to some of my certifications:
+            - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/5c50c596-19c8-4144-aa34-15df59a09c06){:target="_blank"}
+            - [CCNP Routing and Switching](https://www.credly.com/badges/e366f67f-effd-4a83-b3f4-5b3e227965a3){:target="_blank"}
+          - [My Credly profile](https://www.credly.com/users/chrisjosuearzu/badges){:target="_blank"}
       - layout: left
         title: Universidad Mariano Gálvez
         sub_title: Systems engineering
