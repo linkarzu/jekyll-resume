@@ -77,7 +77,6 @@ about_content: | # this will include new lines to allow paragraphs
     - My journey in the IT world started when I decided to get my Cisco CCNA certification, but I then soon realized that networking is just a small part of the landscape.
     - I adapt quickly and connect the dots to understand how things work. If I don't know something, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
     - I love documenting my work, let's say for example I'm learning to deploy WordPress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it.
-
     <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -164,8 +163,6 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           - Handled Jive VoIP customer care issues and T1 reps escalations.
-
-          <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
       # - layout: left
       #   title: World Connection
