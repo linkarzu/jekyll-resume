@@ -8,23 +8,23 @@ version: 2
 
 # Personal info
 name: Christian Arzu (linkarzu)
-title: Senior monitoring engineer
+title: Senior Monitoring Engineer
 # email: Your email (optional)
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://linkarzu.com 
-website_title: My blog
+website: https://resume.linkarzu.com
+website_title: Resume
 # This website2 below doesnt work
-# website2: youtube.com/@linkarzu 
+# website2: youtube.com/@linkarzu
 # website2_title: YouTube
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 linkedin_username: christianarzu
-github_username:  linkarzu
+github_username: linkarzu
 youtube_username: "@linkarzu"
 # twitter_username: jekyllrb
 #stackoverflow_username: "00000001"
@@ -39,9 +39,9 @@ youtube_username: "@linkarzu"
 
 # Additional icon links
 additional_links:
-- title: Credly
-  icon: fas fa-certificate #I updated the icon version in _sass/base.scss to v6.4.0
-  url: https://www.credly.com/users/chrisjosuearzu/badges
+  - title: Credly
+    icon: fas fa-certificate #I updated the icon version in _sass/base.scss to v6.4.0
+    url: https://www.credly.com/users/linkarzu/badges
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -56,11 +56,27 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://res.cloudinary.com/daqwsgmx6/image/upload/v1683578753/Profile%20pics/linkedin.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I like to learn about new stuff related to technology, not specific to a particular field. 
-  Whether it's Linux, networking, virtualization, containerization, cloud services, web design, programming - you name it; 
-  if it's something I can use in real life, I'm down for learning and applying it. 
-  - Check out my: [Personal blog](https://linkarzu.com){:target="_blank"}
-  - Check out my: [YouTube channel](https://www.youtube.com/@linkarzu){:target="_blank"}
+  ## Skills and interests:
+    - I'm highly skilled and experienced in managing and deploying enterprise monitoring solutions, including the setup of integrations between monitoring tools for alerting and paging via PagerDuty or other paging tool
+    - I like to dive deep into anything related to technology, not specific to a particular field.
+    Whether it's Linux, networking, virtualization, containerization, cloud services, monitoring, web design, coding, you name it; 
+    if it's something I can use in real life, I'm down for applying it.
+    - I'm a huge Neovim fan, macOS is my daily driver, and Debian is my Linux distro of choice for servers.
+
+  <br>
+  ## My useful links (clickable):
+    - [Online resume -> resume.linkarzu.com](https://resume.linkarzu.com){:target="_blank"}
+    - [Personal blog -> linkarzu.com](https://linkarzu.com){:target="_blank"}
+    - [YouTube channel -> youtube.com/@linkarzu](https://www.youtube.com/@linkarzu){:target="_blank"}
+    - [GitHub profile -> github.com/linkarzu](https://github.com/linkarzu){:target="_blank"}
+    - [Linkedin profile -> linkedin.com/in/christianarzu](https://www.linkedin.com/in/christianarzu){:target="_blank"}
+    - [Credly profile -> credly.com/users/linkarzu/badges](https://www.credly.com/users/linkarzu/badges){:target="_blank"}
+
+  <br>
+  ## A bit more about me:
+    - My journey in the IT world started when I decided to get my Cisco CCNA certification, but I then soon realized that networking is just a small part of the landscape.
+    - I adapt quickly and connect the dots to understand how things work. If I don't know something, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
+    - I love documenting my work, let's say for example I'm learning to deploy WordPress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it.
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -77,7 +93,7 @@ content:
   #   layout: list # Type of content section (list/text)
   #   content:
   #     - layout: left
-  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any
   #                     # other value (or no value) means no border will be displayed
   #       title: Project name
   #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -93,22 +109,28 @@ content:
   #         Short overview of the project (optional)
   #       description: | # this will include new lines to allow paragraphs
   #         Description about the work on/with the project
-  - title: Experience
+  - title: Professional Experience
     layout: list
     content:
       - layout: left
         title: GoTo
-        sub_title: Monitoring engineer
+        sub_title: Senior Monitoring Engineer
         caption: Sept 2022 - present <br> (1 year 6 months)
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          ```html
-          - Manage official monitoring tools used across the company. 
-          - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, and alert correlation.
-          - Deploy and maintain necessary infrastructure either on the cloud or on-prem.          
+          - Manage official monitoring tools used across the company. Highly experienced in the administration and deployment of tools such as:  
+            - `LogicMonitor` including collectors either on-prem or cloud  
+            - `Catchpoint`, including private nodes  
+            - `BigPanda`  
+            - `PagerDuty` and `Splunk On-Call`, formerly known as `VictorOps`  
+            - `Pingdom`, `PingPlotter`, `ThousandEyes`, `AppDynamics`  
+            - `Zabbix`, `Uptime Kuma`  
+            - `Prometheus` and `VictoriaMetrics` for container monitoring  
+          - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, and alert correlation.  
+          - Deploy and maintain necessary infrastructure either on the cloud or on-prem.  
           - Handle vendor contracts, and guide internal users on how to choose the best tool for the job.
-          ```
+
       - layout: left
         title: GoTo
         sub_title: Site Reliability Engineer
@@ -116,12 +138,11 @@ content:
         # link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          ```yaml
-          - Worked in the NOC team ensuring uptime for all the different public-facing products. 
+          - Worked in the `NOC (Network Operations Center)` team ensuring uptime for all the different public-facing products. 
           - Monitor critical alerts across the company to avoid and fix potential issues. 
           - Incident management including status pages.
           - SSL certificate follow-up to avoid expired certs causing downtime.
-          ```
+
       - layout: left
         title: GoTo
         sub_title: Field Engineer
@@ -129,11 +150,10 @@ content:
         # link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          ```css
           - Deployed Jive’s VoIP cloud PBX for enterprise customers. 
           - Configure and troubleshoot various network devices. 
           - Routers, switches (segmentation of networks through VLANs), firewalls and SD-WAN appliances.
-          ```
+
       - layout: left
         title: GoTo
         sub_title: Tier 2 tech support
@@ -141,9 +161,8 @@ content:
         # link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          ```
           - Handled Jive VoIP customer care issues and T1 reps escalations.
-          ```
+
       # - layout: left
       #   title: World Connection
       #   sub_title: Quality Analyst
@@ -167,48 +186,27 @@ content:
         title: Technical Certifications
         sub_title: Certifications
         caption: 2018 - Present
-        quote: 
+        quote:
         description: | # this will include new lines to allow paragraphs
-          ```json
-          - My latest certification is "CKA: Certified Kubernetes Administrator"
-          - But over the years, i've acquired other certs from different vendors (Cisco, Juniper, Akamai, etc).
-          ```
+          - My latest certification is `CKA: Certified Kubernetes Administrator`
+          - But over the years, I've acquired other certs from different vendors (`Cisco`, `Juniper`, `Akamai`, etc).
           - Links to some of my certifications:
             - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/5c50c596-19c8-4144-aa34-15df59a09c06){:target="_blank"}
             - [CCNP Routing and Switching](https://www.credly.com/badges/e366f67f-effd-4a83-b3f4-5b3e227965a3){:target="_blank"}
-          - [My Credly profile](https://www.credly.com/users/chrisjosuearzu/badges){:target="_blank"}
+            - [My Credly profile](https://www.credly.com/users/linkarzu/badges){:target="_blank"}
       - layout: left
         title: Universidad Mariano Gálvez
         sub_title: Systems engineering
         caption: 2021 - 2025
-        quote: 
+        quote:
         description: | # this will include new lines to allow paragraphs
-          ```
           - Learning programming languages like C++, Java and C#.
           - Data structures in C# (linked lists, binary search trees, etc).
-          ```
-      - layout: left
-        title: Universidad San Carlos
-        sub_title: Systems engineering
-        caption: 2007 - 2009
-        quote: 
-        description: | # this will include new lines to allow paragraphs
-          ```
-          - Incomplete studies, I was younger and wanted to live life :wink:
-          ```
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      ```
-      - My journey in the IT world started when I decided to get my Cisco CCNA certification back in 2018, but then I realized that networking is just a small part of the landscape, so I've been trying to catch up to new technologies ever since.
-      - I adapt quickly and connect the dots to understand how things work. If I don't know an answer, I'm not going to pretend I know and give you false information, I'll tell you to give me some time and come back with something useful.
-      - I love taking notes, let's say for example I'm learning to deploy WordPress on a docker container in a GCP VM, I'll document the whole process in case I need to re-do it. 
-        - I used to manage my notes in Google Docs but it's too slow to load, so migrated all my notes to Obsidian, so now everything is handled as markdown files and automatically uploaded to my private GitHub repo.
-      ```
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
+references_title: 2024
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -219,17 +217,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
