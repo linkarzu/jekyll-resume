@@ -116,7 +116,7 @@ content:
       - layout: left
         title: GoTo
         sub_title: Senior Monitoring Engineer
-        caption: Sept 2022 - present <br> (1 year 6 months)
+        caption: Sept 2022 - Feb 2025 <br> (2 year 5 months)
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -131,6 +131,8 @@ content:
           - Monitor SNMP, WMI devices, cloud infrastructure, synthetic tests, alert routing, and alert correlation.  
           - Deploy and maintain necessary infrastructure either on the cloud or on-prem.  
           - Handle vendor contracts, and guide internal users on how to choose the best tool for the job.
+          - Provide the monitoring solution (VictoriaMetrics) for other teams to monitor their Kubernetes applications
+          - Deploy applications in Kubernetes with helm manifests using a Jenkincs CI/CD pipeline and ArgoCD
 
       - layout: left
         title: GoTo
