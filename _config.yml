@@ -145,7 +145,7 @@ content:
           - Worked in the `NOC (Network Operations Center)` team ensuring uptime for all the different public-facing products. 
           - Monitor critical alerts across the company to avoid and fix potential issues. 
           - Incident management including status pages.
-          - SSL certificate follow-up to avoid expired certs causing downtime.
+          - SSL certificate follow-up to avoid expired certs.
 
       - layout: left
         title: GoTo
@@ -165,7 +165,7 @@ content:
         # link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
-          - Handled Jive VoIP customer care issues and T1 reps escalations.
+          - Handled Jive VoIP customer care issues and escalations.
           <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
       # - layout: left
