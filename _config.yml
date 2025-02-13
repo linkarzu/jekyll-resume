@@ -182,7 +182,7 @@ content:
       #   quote:
       #   description: | # this will include new lines to allow paragraphs
       #     - Google Apps for Work in the Email migrations department
-  - title: Education
+  - title: <br> <br> Education
     layout: list
     content:
       - layout: left
