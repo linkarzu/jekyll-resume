@@ -57,11 +57,15 @@ additional_links:
 about_profile_image: https://res.cloudinary.com/daqwsgmx6/image/upload/v1683578753/Profile%20pics/linkedin.jpg
 about_content: | # this will include new lines to allow paragraphs
   ## Skills and interests:
-    - I'm highly skilled and experienced in managing and deploying enterprise monitoring solutions, including the setup of integrations between monitoring tools for alerting and paging via PagerDuty or other paging tool
-    - I'm familiar with the DevOps model, taking an application from code to a container registry, then to a Helm chart, and finally deploying it to a Kubernetes cluster. Everything managed through CI/CD pipelines, with ArgoCD handling deployments.
-    - I have experience with the incident management process, worked as an SRE for LogMeIn for a few years.
-    - I have several professional level certifications, including `CKA: Certified Kubernetes Administrator` and `CCNP` by Cisco
-    - I'm a huge Neovim fan, macOS is my daily driver, and Debian is my Linux distro of choice for servers.
+    - Senior Monitoring Engineer with deep expertise in enterprise monitoring solutions, infrastructure automation, and cloud-native observability. Skilled in designing, deploying, and integrating monitoring stacks, managing on-prem and cloud infrastructure, and optimizing system reliability through proactive alerting and automation. 
+    - **Cloud Experience:** AWS (EC2, S3, Lambda, Route 53), Oracle Cloud (OCI), and GCP (Compute Engine, Cloud Monitoring).
+    - **Infrastructure & DevOps:** Linux server management (Debian), Docker, `Kubernetes (CKA Certified)`, Helm, CI/CD pipelines (Jenkins, ArgoCD).
+    - **Networking & Security:** `Cisco CCNP certified`, experience with BGP, VLANs, VPNs, MikroTik routers, firewalls.
+    - **Observability & Monitoring:** Zabbix, LogicMonitor, BigPanda, PagerDuty, Catchpoint, Prometheus, VictoriaMetrics.
+    - **Hypervisor, VM Automation & Scripting:**
+      - Extensive experience with **XCP-NG**, deploying and managing VMs using **custom Bash scripts** that automate:
+      - **VM creation, DNS record updates, IP reservations, SSH config updates and more.
+    - **Tools & Workflows:** Neovim enthusiast, Git/GitHub workflows, tmux, macOS daily driver.
 
   <br>
   ## My useful links (clickable):
@@ -74,10 +78,17 @@ about_content: | # this will include new lines to allow paragraphs
 
   <br>
   ## A bit more about me:
-    - I enjoy spending time in my homelab, I have a 3 node XCP-NG cluster in which I run several VMs, including 3 DNS servers using bind9, a 3 control plane and 3 worker node HA kubernetes cluster, 3 node docker swarm cluster, 3 node glusterfs storage cluster. I run several containers, for example: Traefik as an ingress and for SSL certs, samba server, zabbix server, a registry, databases, apt-cacher-ng and more.
-    - I have a Mikrotik router with a dual ISP connection and configured scripts to failover to the backup ISP when the main ISP goes down. Also have a small managed switch in which I configured VLANs, and also have a dedicated separate network for Wi-Fi guests.
-    - My journey in the IT world started when I decided to get my Cisco CCNA certification, but I then soon realized that networking is just a small part of the landscape.
-    - I love documenting my work, let's say for example I'm learning to deploy a 3 control plane HA kubernetes cluster, I'll document the whole process in case I need to re-do it.
+    - I enjoy working on my **homelab**, which includes a **3-node XCP-NG cluster** running multiple VMs and services:
+      - **DNS servers (BIND9)**, a **3-control plane, 3-worker node Kubernetes cluster**, a **3-node Docker Swarm**, and a **3-node GlusterFS storage cluster**.
+      - **Some of my containerized services:** 
+        - **Traefik** – Reverse proxy & automatic SSL.
+        - **Samba** – Network file shares for Linux/macOS/Windows.
+        - **Zabbix** – Infrastructure & application monitoring.
+        - **Private Docker Registry** – Stores custom-built images.
+        - **APT-Cacher-NG** – Speeds up package downloads.
+    - My **network setup** includes a **MikroTik router** with **dual ISP failover**, a **managed switch with VLAN segmentation**, and a **separate guest Wi-Fi network**.
+    - My **IT journey began with networking (CCNA)**, but I expanded into **Linux, DevOps, and cloud infrastructure** (AWS, OCI, GCP).
+    - I’m passionate about **documenting complex deployments** to streamline future setups and knowledge sharing.
     <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
