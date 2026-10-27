@@ -194,3 +194,25 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+// Print/PDF tweaks: shrink to fit 4 pages, top-align entry details and keep
+// each experience/education entry on a single page
+@media print {
+  body {
+    zoom: 0.92;
+  }
+
+  .layout {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    margin-top: 1.5rem !important;
+
+    > div {
+      float: none !important;
+    }
+
+    .details {
+      justify-content: flex-start !important;
+    }
+  }
+}

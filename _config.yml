@@ -8,16 +8,13 @@ version: 2
 
 # Personal info
 name: Christian Arzu (linkarzu)
-title: Senior Monitoring Engineer
+title: Infrastructure Network Engineer
 # email: Your email (optional)
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: https://resume.linkarzu.com
 website_title: Resume
-# This website2 below doesnt work
-# website2: youtube.com/@linkarzu
-# website2_title: YouTube
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -25,7 +22,6 @@ darkmode: false
 # Social links
 linkedin_username: christianarzu
 github_username: linkarzu
-youtube_username: "@linkarzu"
 # twitter_username: jekyllrb
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
@@ -57,21 +53,20 @@ additional_links:
 about_profile_image: https://res.cloudinary.com/daqwsgmx6/image/upload/v1683578753/Profile%20pics/linkedin.jpg
 about_content: | # this will include new lines to allow paragraphs
   ## Skills and interests:
-    - Senior Monitoring Engineer with deep expertise in enterprise monitoring solutions, infrastructure automation, and cloud-native observability. Skilled in designing, deploying, and integrating monitoring stacks, managing on-prem and cloud infrastructure, and optimizing system reliability through proactive alerting and automation. 
+    - Infrastructure Network Engineer with a background as a Senior Monitoring Engineer, with deep expertise in network infrastructure, firewall security, enterprise monitoring solutions, infrastructure automation, and cloud-native observability. Skilled in designing, deploying, and integrating monitoring stacks, managing on-prem and cloud infrastructure, and optimizing system reliability through proactive alerting and automation. 
     - **Cloud Experience:** AWS (EC2, S3, Lambda, Route 53), Oracle Cloud (OCI), and GCP (Compute Engine, Cloud Monitoring).
     - **Infrastructure & DevOps:** Linux server management (Debian), Docker, `Kubernetes (CKA Certified)`, Helm, CI/CD pipelines (Jenkins, ArgoCD).
-    - **Networking & Security:** `Cisco CCNP certified`, experience with BGP, VLANs, VPNs, MikroTik routers, firewalls.
+    - **Networking & Security:** `Cisco CCNP certified`, Palo Alto and Cisco ASA firewalls, NAT, BGP, VLANs, subnetting, VPNs, MikroTik routers.
     - **Observability & Monitoring:** Zabbix, LogicMonitor, BigPanda, PagerDuty, Catchpoint, Prometheus, VictoriaMetrics.
     - **Hypervisor, VM Automation & Scripting:**
       - Extensive experience with **XCP-NG**, deploying and managing VMs using **custom Bash scripts** that automate:
-      - **VM creation, DNS record updates, IP reservations, SSH config updates and more.
+      - **VM creation, DNS record updates, IP reservations, SSH config updates and more.**
     - **Tools & Workflows:** Neovim enthusiast, Git/GitHub workflows, tmux, macOS daily driver.
 
   <br>
   ## My useful links (clickable):
     - [Online resume -> resume.linkarzu.com](https://resume.linkarzu.com){:target="_blank"}
     - [Personal blog -> linkarzu.com](https://linkarzu.com){:target="_blank"}
-    - [YouTube channel -> youtube.com/@linkarzu](https://www.youtube.com/@linkarzu){:target="_blank"}
     - [GitHub profile -> github.com/linkarzu](https://github.com/linkarzu){:target="_blank"}
     - [Linkedin profile -> linkedin.com/in/christianarzu](https://www.linkedin.com/in/christianarzu){:target="_blank"}
     - [Credly profile -> credly.com/users/linkarzu/badges](https://www.credly.com/users/linkarzu/badges){:target="_blank"}
@@ -89,7 +84,6 @@ about_content: | # this will include new lines to allow paragraphs
     - My **network setup** includes a **MikroTik router** with **dual ISP failover**, a **managed switch with VLAN segmentation**, and a **separate guest Wi-Fi network**.
     - My **IT journey began with networking (CCNA)**, but I expanded into **Linux, DevOps, and cloud infrastructure** (AWS, OCI, GCP).
     - I’m passionate about **documenting complex deployments** to streamline future setups and knowledge sharing.
-    <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -126,9 +120,21 @@ content:
     layout: list
     content:
       - layout: left
+        title: Conduent
+        sub_title: Infrastructure Network Engineer III (Contractor)
+        caption: May 2025 - Present <br> (1 year 5 months)
+        link: https://www.conduent.com
+        quote:
+        description: | # this will include new lines to allow paragraphs
+          - Own the network side of new projects, designing and provisioning `VLANs` and subnets across the infrastructure.
+          - Implement firewall change requests on `Palo Alto` and `Cisco ASA` firewalls, building security policies to allow required traffic.
+          - Configure `NAT` rules to securely expose internal services to external customers when needed.
+          - Ensure end-to-end connectivity across the entire infrastructure, so developers can reach their destinations and external customers can reach internal services.
+
+      - layout: left
         title: GoTo
         sub_title: Senior Monitoring Engineer
-        caption: Sept 2022 - Feb 2025 <br> (2 year 5 months)
+        caption: Sept 2022 - Feb 2025 <br> (2 years 5 months)
         link: https://www.goto.com
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -144,7 +150,7 @@ content:
           - Deploy and maintain necessary infrastructure either on the cloud or on-prem.  
           - Handle vendor contracts, and guide internal users on how to choose the best tool for the job.
           - Provide the monitoring solution (VictoriaMetrics) for other teams to monitor their Kubernetes applications
-          - Deploy applications in Kubernetes with helm manifests using a Jenkincs CI/CD pipeline and ArgoCD
+          - Deploy applications in Kubernetes with helm manifests using a Jenkins CI/CD pipeline and ArgoCD
 
       - layout: left
         title: GoTo
@@ -177,7 +183,6 @@ content:
         quote:
         description: | # this will include new lines to allow paragraphs
           - Handled Jive VoIP customer care issues and escalations.
-          <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
       # - layout: left
       #   title: World Connection
@@ -222,7 +227,7 @@ content:
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
-references_title: 2024
+references_title: 2026
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
